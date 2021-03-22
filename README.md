@@ -36,7 +36,8 @@ ESX.RegisterUsableItem('shaver', function(source)
 		xPlayer.removeInventoryItem('shaver', 1)
 		TriggerClientEvent('bb_beardshave:shave', source)
 	end
-end)
+end
+)
 
 AND:
 
@@ -61,4 +62,5 @@ ESX.RegisterUsableItem('trimmer', function(source)
 		xPlayer.removeInventoryItem('trimmer', 1)
 		TriggerClientEvent('bb_beardshave:trim', source)
 	end
-end)
+end
+)
