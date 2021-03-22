@@ -7,5 +7,6 @@ version '0.1'
   
 client_scripts {
   'config.lua',
-  'client/*.lua'
+  'client/*.lua',
+  'client/events/*.lua'
 }
