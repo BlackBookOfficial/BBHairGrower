@@ -14,6 +14,7 @@ https://github.com/JayMontana36/mythic_notify
 
 # Inegration ESX ( ADD ):
 - esx_basicneeds: server.lua
+
 ESX.RegisterUsableItem('shaver', function(source)
 	local xPlayer = ESX.GetPlayerFromId(source)
 	local randomshavetext = math.random(0, 200)
