@@ -46,19 +46,19 @@ ESX.RegisterUsableItem('trimmer', function(source)
 
 	if randomshavetext >= 0 and randomshavetext <= 50 then
 		TriggerClientEvent('mythic_notify:client:DoHudText', source, { type = 'inform', text = 'This beard grows too much..', length = 4000 })
-		xPlayer.removeInventoryItem('trimmer', 1)
+		xPlayer.removeInventoryItem('browtrimmer', 1)
 		TriggerClientEvent('bb_beardshave:trim', source)
 	elseif randomshavetext >= 51 and randomshavetext <= 100 then
 		TriggerClientEvent('mythic_notify:client:DoHudText', source, { type = 'inform', text = 'Need a smooth face!', length = 4000 })
-		xPlayer.removeInventoryItem('trimmer', 1)
+		xPlayer.removeInventoryItem('browtrimmer', 1)
 		TriggerClientEvent('bb_beardshave:trim', source)
 	elseif randomshavetext >= 101 and randomshavetext <= 150 then
 		TriggerClientEvent('mythic_notify:client:DoHudText', source, { type = 'inform', text = 'Wonder if this gets me a job?', length = 4000 })
-		xPlayer.removeInventoryItem('trimmer', 1)
+		xPlayer.removeInventoryItem('browtrimmer', 1)
 		TriggerClientEvent('bb_beardshave:trim', source)
 	elseif randomshavetext >= 151 and randomshavetext <= 200 then
 		TriggerClientEvent('mythic_notify:client:DoHudText', source, { type = 'inform', text = 'This beard is the best, but needs to be gone!', length = 4000 })
-		xPlayer.removeInventoryItem('trimmer', 1)
+		xPlayer.removeInventoryItem('browtrimmer', 1)
 		TriggerClientEvent('bb_beardshave:trim', source)
 	end
 end)
