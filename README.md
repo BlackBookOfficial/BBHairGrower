@@ -1,4 +1,4 @@
-# HairGrower ( Requires SkinChanger! )
+# BBHairGrower ( Requires SkinChanger! )
 Simple script i put together to tackle down on majority of wanted functions.
 It requires you to have mythic_notify for notification popups.
 
